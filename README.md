@@ -15,7 +15,7 @@ Inventory HUD for ESX. You can open and close inventory using F2. Part of code w
 - Locale files included (check locales/ and html/locales/ directories)
 
 ## Screens
-* [https://i.imgur.com/PRx3vX3.png](https://i.imgur.com/PRx3vX3.png)
+![screenshot](https://i.imgur.com/PRx3vX3.png)
 
 ## Download & Installation
 
