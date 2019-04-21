@@ -1,36 +1,36 @@
 # esx_inventoryhud
-Inventory HUD for ESX. You can open and close inventory using F2. Part of code was taken from [es_extended](https://github.com/ESX-Brasil/es_extended) .
+Inventário HUD para ESX. Você pode abrir e fechar o estoque usando F2. Parte do código foi tirada de [es_extended](https://github.com/ESX-Brasil/es_extended) .
 
-## Requirements
+## Requisitos
 * [es_extended](https://github.com/ESX-Brasil/es_extended)
 
-## Features
-- Using items
-- Droping items
-- Giving items
-- Searching inventory
-- Cash included
-- Accounts support (bank, black money, ...)
-- Fully configurable (check config.lua and html/js/config.js)
-- Locale files included (check locales/ and html/locales/ directories)
+## Características
+- Usando itens
+- Soltando itens
+- Dando itens
+- Pesquisando inventário
+- Dinheiro incluído
+- Suporte de contas (banco, dinheiro sujo, ...)
+- Totalmente configurável(check config.lua and html/js/config.js)
+- Arquivos de local incluídos (check locales/ and html/locales/ directories)
 
 ## Screens
 ![screenshot](https://i.imgur.com/PRx3vX3.png)
 
-## Download & Installation
+## Download e Instalação
 
-### Using Git
+### Usando o Git
 ```
 cd resources
 git clone https://github.com/ESX-Brasil/esx_inventoryhud [esx]/esx_inventoryhud
 ```
 
-### Manually
+### Manualmente
 - Download https://github.com/ESX-Brasil/esx_inventoryhud/archive/master.zip
-- Put it in the `[esx]` directory
+- Coloque-o no `[esx]` diretório
 
-## Installation
-- Open `es_extended`, then find and remove this code in `client/main.lua`:
+## Instalação
+- Abrar `es_extended`, em seguida, localize e remova este código `client/main.lua`:
 ```
 -- Menu interactions
 Citizen.CreateThread(function()
@@ -45,16 +45,19 @@ Citizen.CreateThread(function()
 	end
 end)
 ```
-- Add this to your `server.cfg`:
+- Adicione isto ao seu `server.cfg`:
 
 ```
 start esx_inventoryhud
 ```
 
-## Config files
+## Arquivos de configuração
 * config.lua
 * html/js/config.js
 
+# Creditos
+
+Trsak
 
 # Discord
 
