@@ -66,7 +66,7 @@ Trsak
 
 # Legal
 ### License
-es_extended - EssentialMode Extended framework for FiveM
+esx_inventoryhud - esx_inventoryhud ESX
 
 Copyright (C) 2015-2018 ESX-Brasil
 
